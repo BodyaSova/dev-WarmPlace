@@ -1,4 +1,140 @@
+::selection {
+    background-color: $secondary-color;
+    color: #151515;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    background-color: #151115;
-    height: 5000px;
+    background-color: #151515;
+    color: $primary-color;
+    font-family: $font-primary;
+}
+
+a {
+    color: $secondary-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-weight: 400;
+    line-height: 126%;
+}
+
+h6,
+.h6 {
+    font-size: 18px;
+}
+
+h5,
+.h5 {
+    font-size: 20px;
+}
+
+h4,
+.h4 {
+    font-size: 24px;
+}
+
+h3,
+.h3 {
+    font-size: 28px;
+}
+
+h2,
+.h2 {
+    font-size: 32px;
+}
+
+h1,
+.h1 {
+    font-size: 36px;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1390px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-template {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.btn {
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 27px;
+    padding: 18px 26px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.btn-primary {
+    color: #fcb357;
+    border: 1px solid #fcb357;
+    background-color: transparent;
+    max-width: 190px;
+
+    &:hover {
+        background-color: #fcb357;
+        color: $primary-color;
+        box-shadow: 0px 0px 10px 3px rgba(252,179,87,0.75);
+    }
+
+    &:focus {
+        box-shadow: 0px 0px 10px 3px rgba(252,179,87,0.75);
+    }
+}
+
+.btn-secondary {
+    color: $primary-color;
+    border: 1px solid #fcb357;
+    background-color: #fcb357;
+    box-shadow: 0px 0px 10px 3px rgba(252,179,87,0.75);
+    max-width: 321px;
+
+    &:hover,
+    &:focus {
+        background-color: transparent;
+    }
 }
