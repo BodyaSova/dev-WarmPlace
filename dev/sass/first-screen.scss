@@ -1,0 +1,67 @@
+.first-screen {
+    height: calc(100vh - 116px);
+    background: url(assets/img/first-screen.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-top: -26px;
+        align-items: center;
+    }
+
+    ul { 
+        list-style: none; 
+    }
+
+    .product-list {
+        display: flex;
+        align-items: center;
+        position: relative;
+        min-width: 540px;
+        justify-content: space-between;
+        margin-bottom: 50px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            right: -44px;
+            top: 0;
+            height: 24px;
+            width: 1px;
+            background-color: $primary-color;
+        }
+    }
+
+    .product-item {
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            left: -44px;
+            top: 0;
+            height: 24px;
+            width: 1px;
+            background-color: $primary-color;
+        }
+    }
+
+    .title {
+        font-weight: 600;
+        font-size: 45px;
+        font-family: "Montserrat";
+        margin-bottom: 140px;
+    }
+
+    .btn-secondary {
+        font-size: 18px;
+        min-width: 300px;
+
+        &:hover,
+        &:active {
+            color: $secondary-color;
+        }
+    }
+}
