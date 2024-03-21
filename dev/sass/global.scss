@@ -7,17 +7,21 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: $font-primary;
 }
 
 body {
     background-color: #151515;
     color: $primary-color;
-    font-family: $font-primary;
+    font-family: 'Poppins';
 }
 
 a {
     color: $secondary-color;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
 }
 
 h1,

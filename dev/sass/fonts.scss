@@ -1,61 +1,46 @@
-.poppins-extralight {
-  font-family: "Poppins", sans-serif;
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/Poppins-ExtraLight.ttf) format('TrueType'),
+       url(assets/fonts/Poppins-ExtraLight.otf) format('OpenType'),
+       url(assets/fonts/Poppins-ExtraLight.woff2) format('woff2'),;
   font-weight: 200;
   font-style: normal;
 }
 
-.poppins-light {
-  font-family: "Poppins", sans-serif;
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/Poppins-Light.ttf) format('TrueType'),
+       url(assets/fonts/Poppins-Light.otf) format('OpenType'),
+       url(assets/fonts/Poppins-Light.woff2) format('woff2'),;
   font-weight: 300;
   font-style: normal;
 }
 
-.poppins-regular {
-  font-family: "Poppins", sans-serif;
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/Poppins-Regular.ttf) format('TrueType'),
+       url(assets/fonts/Poppins-Regular.otf) format('OpenType'),
+       url(assets/fonts/Poppins-Regular.woff2) format('woff2'),;
   font-weight: 400;
   font-style: normal;
 }
 
-.poppins-medium {
-  font-family: "Poppins", sans-serif;
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/Poppins-Medium.ttf) format('TrueType'),
+       url(assets/fonts/Poppins-Medium.otf) format('OpenType'),
+       url(assets/fonts/Poppins-Medium.woff2) format('woff2'),;
   font-weight: 500;
   font-style: normal;
 }
 
-.poppins-semibold {
-  font-family: "Poppins", sans-serif;
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/Poppins-SemiBold.ttf) format('TrueType'),
+       url(assets/fonts/Poppins-SemiBold.otf) format('OpenType'),
+       url(assets/fonts/Poppins-SemiBold.woff2) format('woff2'),;
   font-weight: 600;
   font-style: normal;
-}
-
-.poppins-extralight-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.poppins-light-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.poppins-regular-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.poppins-medium-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.poppins-semibold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: italic;
 }
 
 .montserrat-semibold {

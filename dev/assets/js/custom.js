@@ -1,7 +1,8 @@
-// Функция для прокрутки страницы вверх
-function scrollToTop() {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth' // Плавная прокрутка
+$('.works-slider').slick({
+    infinite: true,
+    slidesToShow: 3,
+    appendArrows: $('.works-arrows'),
+    prevArrow: $('.arrow-prev'),
+    nextArrow: $('.arrow-next'),
+    slidesToScroll: 3
   });
-}

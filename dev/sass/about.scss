@@ -1,7 +1,78 @@
 .about {
-    padding: 62px 0 170px;
+    padding: 97px 0 170px;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 90px;
+        bottom: 47px;
+        width: 59px;
+        height: 204px;
+        background: url(assets/img/Frame1.png);
+    }
+
+    &__main-img {
+        margin-left: 121px;
+        padding: 0 10px;
+        position: relative;
+
+        &::after {
+            content: "";
+            z-index: -1;
+            position: absolute;
+            left: -19px;
+            top: -15px;
+            background: linear-gradient(180deg, #ffb44f 0%, #f2864a 100%);
+            width: 457px;
+            height: 604px;
+        }
+    }
     
     &__box {
         margin-top: 125px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__text-box {
+        max-width: 395px;
+        margin-bottom: 44px;
+    }
+
+    &__info {
+        max-width: 467px;
+        padding: 0 10px;
+        margin-right: 34px;
+    }
+
+    &__link {
+        margin-bottom: 58px;
+        padding-left: 54px;
+        position: relative;
+
+        a {
+            text-decoration: none;
+            font-weight: 300;
+            font-size: 14px;
+            color: #ffb44f;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 34px;
+            height: 2px;
+            background-color: #ffb44f;
+            border-radius: 60px;
+            left: 0;
+            top: 50%;
+        }
+    }
+
+    .text-item {
+        font-weight: 300;
+        font-size: 14px;
+        margin-bottom: 20px;
     }
 }
