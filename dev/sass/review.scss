@@ -1,0 +1,98 @@
+#review {
+    .title-template {
+        margin-bottom: 166px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    .card {
+        box-shadow: 2px 8px 8px 0px rgba(0, 0, 0, 0.25);
+        position: relative;
+        width: 670px;
+        padding: 33px 26px 26px 19px;
+
+        &-info {
+            display: flex;
+        }
+    }
+
+    .quote_before {
+        position: absolute;
+        right: 27px;
+        top: 33px;
+    }
+
+    .person-photo {
+        width: 115px;
+        height: 115px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .user-photo-1 {
+        object-fit: none;
+        object-position: -234px -20px;
+        max-height: 100%;
+    }
+
+    .user-photo-2 {
+        object-position: -25px;
+    }
+
+    .user-photo-3 {
+        object-position: -50px -10px;
+    }
+
+    .user-photo-4 {
+        object-position: -12px;
+    }
+
+    .person-info {
+        max-width: 400px;
+        margin-left: 29px;
+    }
+
+    .person-status {
+        color: #e6a859;
+        font-size: 11px;
+        line-height: 17px;
+        margin-bottom: 7px;
+    }
+
+    .person-name {
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 16px;
+    }
+
+    .person-comment {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 33px;
+    }
+
+    .social-list {
+        display: flex;
+        gap: 16px;
+    }
+
+    .social-item:hover {
+        opacity: .7;
+        transition: .3s;
+    }
+
+    .card-column {
+        display: flex;
+        gap: 50px;
+    }
+    
+    .card-row {
+        margin-bottom: 63px;
+    }
+
+    .card-group {
+        margin-bottom: 149px;
+    }
+}
